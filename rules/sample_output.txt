@@ -1,0 +1,4 @@
+DEMO deterministic output (not an LLM response)
+Duplicate IP: FAIL | 192.168.10.25 | Duplicate address detected
+Wrong subnet mask: PASS | No conflicting mask seen | No mismatch detected
+Interface down/shutdown: INSUFFICIENT_EVIDENCE | No interface state supplied | Run show ip interface brief
