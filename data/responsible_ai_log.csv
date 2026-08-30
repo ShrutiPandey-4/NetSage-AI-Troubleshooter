@@ -1,0 +1,6 @@
+case_id,ai_root_cause,ai_confidence,human_decision,human_correction,reason_for_correction,final_root_cause
+LAB-01,Missing VLAN 20,0.92,ACCEPTED,,Authored demonstration audit,Missing VLAN 20
+LAB-05,Wrong ACL,0.61,EDITED,Missing static route,Routing table directly showed absent network,Missing static route
+LAB-09,Wrong password,0.55,REJECTED,,Evidence only showed disabled SSID,Insufficient evidence
+LAB-13,Duplicate IP,0.67,EDITED,Wrong subnet mask,Addresses differed but masks conflicted,Wrong subnet mask
+LAB-19,Wireless fault,0.48,EDITED,Guest isolation ACL missing,ACL evidence was decisive,Guest isolation ACL missing
